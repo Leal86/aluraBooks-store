@@ -9,6 +9,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Pacifico&family=Poppins:wght@300;400;500;700&display=swap"
         rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@400;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" />
     <link rel="stylesheet" href="styles/style.css">
     <title>AluraBooks</title>
@@ -46,10 +47,44 @@
                 </li>
             </ul>
             <img src="assets/Logo.svg" alt="Logo AluraBooks" class="container__imagem">
+            <h1 class="container__titulo"><b class="container__titulo-negrito">Alura</b>Books</h1>
         </div>
 
+        <ul class="opcoes">
+            <input type="checkbox" id="opcoes-menu" class="opcoes__botoes">
+
+            <label for="opcoes-menu">
+                <li class="opcoes__item">Categorias</li>
+            </label>
+
+            <ul class="lista-menu">
+                <li class="lista-menu__item">
+                    <a href="" class="lista-menu__link">Programação</a>
+                </li>
+
+                <li class="lista-menu__item">
+                    <a href="" class="lista-menu__link">Front-end</a>
+                </li>
+
+                <li class="lista-menu__item">
+                    <a href="" class="lista-menu__link">Infraestrutura</a>
+                </li>
+
+                <li class="lista-menu__item">
+                    <a href="" class="lista-menu__link">Business</a>
+                </li>
+
+                <li class="lista-menu__item">
+                    <a href="" class="lista-menu__link">Design & UX</a>
+                </li>
+            </ul>
+
+            <li class="opcoes__item"><a href="#" class="opcoes__link">Favoritos</a></li>
+            <li class="opcoes__item"><a href="#" class="opcoes__link">Minha Estante</a></li>
+        </ul>
+
         <div class="container">
-            <a href="#"><img src="assets/Favoritos.svg" alt="Meus Favoritos" class="container__imagem"></a>
+            <a href="#"><img src="assets/Favoritos.svg" alt="Meus Favoritos" class="container__imagem container__imagem-transparente"></a>
             <a href="#"><img src="assets/Compras.svg" alt="Carrinho de compras" class="container__imagem"></a>
             <a href="#"><img src="assets/Usuário.svg" alt="Meu perfil" class="container__imagem"></a>
         </div>
@@ -152,7 +187,7 @@
                 </div>
                 <div class="swiper-slide">
                     <img src="assets/Javascript.png" alt="Livro sobre JavaScript assertivo da alurabooks.">
-                </div>                
+                </div>
                 <div class="swiper-slide">
                     <img src="assets/ApacheKafka.png" alt="Livro sobre apache kafka e spring boot da alura books.">
                 </div>
@@ -173,7 +208,8 @@
                     <img src="assets/Estrelinhas.png" class="classificacao-autora" alt="Imagem cinco estrelas">
                     <h3 class="descricao-autora__titulo">Autora do mês</h3>
                     <h2 class="descricao-autora__nome">Juliana Agaricov</h2>
-                    <p class="descricao-autora__texto">Analista de sistemas e escritoa, Juliana é especialista em Front-end.</p>
+                    <p class="descricao-autora__texto">Analista de sistemas e escritoa, Juliana é especialista em
+                        Front-end.</p>
                 </div>
 
                 <!-- Segunda coluna-->
@@ -230,10 +266,11 @@
         <input type="email" name="email" class="contato__email" id="" placeholder="Cadastre seu e-mail">
     </section>
 
-    <hr/>
+    <hr />
 
     <footer class="rodape">
-        <h2 class="rodape__titulo">Desenvolvido por <a href="https://github.com/Leal86" class="rodape__link" target="_blank">Alexsander Leal</a></h2>
+        <h2 class="rodape__titulo">Desenvolvido por <a href="https://github.com/Leal86" class="rodape__link"
+                target="_blank">Alexsander Leal</a></h2>
         <p class="rodape__texto">Para fins acadêmicos</p>
     </footer>
 
