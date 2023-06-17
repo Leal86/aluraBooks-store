@@ -121,7 +121,7 @@
                     <li class="botoes__item"><img src="assets/Favoritos-1.svg" alt="Favoritar livro"></li>
                     <li class="botoes__item"><img src="assets/Compras.svg" alt="Adicionar no carrinho"></li>
                 </ul>
-                
+
                 <!-- Segunda coluna-->
                 <a href="#" class="botoes__ancora">Saiba mais</a>
             </div>
@@ -142,24 +142,19 @@
             <div class="swiper-wrapper">
                 <!-- Slides -->
                 <div class="swiper-slide">
-                    <img src="assets/ApacheKafka.png" alt="Livro sobre apache kafka e spring boot da alura books.">
+                    <img src="assets/Portugol.png" alt="Livro sobre Portugol.">
                 </div>
-                
                 <div class="swiper-slide">
                     <img src="assets/Guia Front-end.png" alt="Livro guia de front end.">
                 </div>
-                
-                <div class="swiper-slide">
-                    <img src="assets/Javascript.png" alt="Livro sobre JavaScript assertivo da alurabooks.">
-                </div>
-                
-
                 <div class="swiper-slide">
                     <img src="assets/Liderança.png" alt="Livro sobre liderança em design da alurabooks.">
                 </div>
-                
                 <div class="swiper-slide">
-                    <img src="assets/Portugol.png" alt="Livro sobre Portugol.">
+                    <img src="assets/Javascript.png" alt="Livro sobre JavaScript assertivo da alurabooks.">
+                </div>                
+                <div class="swiper-slide">
+                    <img src="assets/ApacheKafka.png" alt="Livro sobre apache kafka e spring boot da alura books.">
                 </div>
             </div>
 
@@ -169,20 +164,20 @@
 
         </div>
 
-        <div class="card">
+        <div class="card-autora">
             <!-- Primeira linha-->
-            <div class="card__descricao">
+            <div class="card-autora__descricao">
 
                 <!-- Primeira coluna-->
                 <div class="descricao">
-                    <img src="assets/Estrelinhas.png" alt="Imagem de cinco estrelas.">
-                    <h3 class="descricao__titulo">Autora do mês</h3>
-                    <h2 class="descricao__titulo-livro">Juliana Agaricov</h2>
-                    <p class="descricao__texto">Analista de sistemas e escritora, Juliana Agaricov é especialista em Front-end.</p>
+                    <img src="assets/Estrelinhas.png" class="classificacao-autora" alt="Imagem cinco estrelas">
+                    <h3 class="descricao-autora__titulo">Autora do mês</h3>
+                    <h2 class="descricao-autora__nome">Juliana Agaricov</h2>
+                    <p class="descricao-autora__texto">Analista de sistemas e escritoa, Juliana é especialista em Front-end.</p>
                 </div>
 
                 <!-- Segunda coluna-->
-                <img src="assets/Perfil-escritora 1-1.png" class="descricao__imagem" alt="Imagem de Juliana Agaricov">
+                <img src="assets/Perfil-escritora 1-1.png" class="descricao__imagem-autora" alt="Imagem da autora">
             </div>
 
             <!-- Segunda linha-->
@@ -192,13 +187,56 @@
                     <li class="botoes__item"><img src="assets/Favoritos-1.svg" alt="Favoritar livro"></li>
                     <li class="botoes__item"><img src="assets/Compras.svg" alt="Adicionar no carrinho"></li>
                 </ul>
-                
+
                 <!-- Segunda coluna-->
                 <a href="#" class="botoes__ancora">Saiba mais</a>
             </div>
         </div>
-
     </section>
+
+    <section class="topicos">
+        <h2 class="topicos__titulo">Tópicos visitados recentemente</h2>
+        <ul class="topicos__lista">
+            <li class="topicos__item">
+                <a href="#" class="topicos__link">Android</a>
+            </li>
+            <li class="topicos__item">
+                <a href="#" class="topicos__link">Marketing Digital</a>
+            </li>
+            <li class="topicos__item">
+                <a href="#" class="topicos__link">Agile</a>
+            </li>
+            <li class="topicos__item">
+                <a href="#" class="topicos__link">Startups</a>
+            </li>
+            <li class="topicos__item">
+                <a href="#" class="topicos__link">HTML & CSS</a>
+            </li>
+            <li class="topicos__item">
+                <a href="#" class="topicos__link">Python</a>
+            </li>
+            <li class="topicos__item">
+                <a href="#" class="topicos__link">OO</a>
+            </li>
+            <li class="topicos__item">
+                <a href="#" class="topicos__link">Java</a>
+            </li>
+        </ul>
+    </section>
+
+    <section class="contato">
+        <h2 class="contato__titulo">Fique por dentro das novidades!</h2>
+        <p class="contato__texto">Atualizações de e-books, novos livros, promoções e outros...</p>
+        <input type="email" name="email" class="contato__email" id="" placeholder="Cadastre seu e-mail">
+    </section>
+
+    <hr/>
+
+    <footer class="rodape">
+        <h2 class="rodape__titulo">Desenvolvido por <a href="https://github.com/Leal86" class="rodape__link" target="_blank">Alexsander Leal</a></h2>
+        <p class="rodape__texto">Para fins acadêmicos</p>
+    </footer>
+
 
     <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
     <script>
