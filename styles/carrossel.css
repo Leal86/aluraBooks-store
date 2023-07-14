@@ -37,7 +37,7 @@
     align-items: center;
 }
 
-.card {
+.card,.card-autora {
     background: var(--branco);
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
     border-radius: 10px;
@@ -50,7 +50,7 @@
     font-weight: 700;
 }
 
-.descricao__titulo-livro {
+.descricao__titulo-livro, .descricao__nome {
     color: var(--azul);
     font-size: 18px;
     font-weight: 700;
@@ -92,7 +92,7 @@
         top: 60%;
     }
 
-    .card {
+    .card, .card-autora {
         width: 40%;
         margin: 2em auto;
     }
@@ -128,5 +128,7 @@
     .card {
         width: 60%;
         margin-left: 3em;
+        margin-top: 3.5em;
     }
- }
+
+}
