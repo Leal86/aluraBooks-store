@@ -22,7 +22,7 @@
 
 .topicos__link {
     color: var(--branco);
-    padding: 1.5em;
+    padding: 1em;
     background-color: var(--laranja);
     text-decoration: none;
     font-size: 14px;
@@ -30,14 +30,17 @@
 }
 
 @media screen and (min-width: 1024px) {
-    .topicos__lista {
-        width: 50%;
-        margin: auto;
-    }
+   .topicos__titulo {
+    font-size: 24px;
+   }
+
+   .topicos__link {
+    font-size: 24px;
+   }
 }
 
 @media screen and (min-width: 1024px) {
     .topicos {
-        padding: 3em 20vw;
+        padding: 3em 30vw;
     }
 }
